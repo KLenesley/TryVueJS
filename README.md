@@ -1,44 +1,45 @@
 # projet-vue-kylian
 
-This template should help get you started developing with Vue 3 in Vite.
+Ce modèle devrait vous aider à démarrer le développement avec Vue 3 dans Vite.
 
-## Recommended IDE Setup
+## Configuration IDE recommandée
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (et désactivez Vetur).
 
-## Type Support for `.vue` Imports in TS
+## Support des types pour les imports `.vue` en TypeScript
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+TypeScript ne peut pas gérer les informations de type pour les imports `.vue` par défaut, donc nous remplaçons la CLI `tsc` par `vue-tsc` pour la vérification des types.  
+Dans les éditeurs, nous avons besoin de [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) pour que le service de langage TypeScript reconnaisse les types `.vue`.
 
-## Customize configuration
+## Personnaliser la configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Voir la [référence de configuration de Vite](https://vite.dev/config/).
 
-## Project Setup
+## Configuration du projet
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilation et rechargement à chaud pour le développement
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Vérification des types, compilation et minification pour la production
 
 ```sh
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Exécuter les tests unitaires avec [Vitest](https://vitest.dev/)
 
 ```sh
 npm run test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint avec [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
